@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>To Do List</title>
+</head>
+    <body background="images/backgrounddefault.jpg" id="body-pd">
+        <header class="header" id="header">
+            <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
+            <h3 style="color: rgb(12, 12, 12);font-family: 'Times New Roman', Times, serif;">TO DO LIST</h3>
+            <img src="images/conference-to-do-list-Digital-Experience-Monitoring-.jpg" width="10%" height="100%"> 
+        </header>
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                
+                <div> <p class="nav_logo"><i class='bx bx-layer nav_logo-icon'></i> <span class="nav_logo-name">@admin</span> </p>
+                    <div class="nav_list">  <a href="Home.html" class="nav_link"> <i class='bx bx-grid-alt nav_icon'></i> <span class="nav_name">Home</span> </a> </div>
+                </div> <a href="index.html" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">Logout</span> </a>
+            </nav>
+        </div>
+      <!--    <img src="todo.jpg_fit=scale" alt="" height="350" width="400" align="right" style="float: inline-end;margin: 5%;"> -->
+        <!--To Do List-->
+        <div class="container mt-5" style="margin-top: 5%;" >
+            <div class="d-flex justify-content-center row">
+                <div class="col-md-6">
+                    <div class="p-4 bg-white notes">
+                        <div class="d-flex flex-row align-items-center notes-title">
+                            <!-- <h4>To Do List</h4>&nbsp;<span class="px-2 review-text ml-2 rounded">vital</span> -->
+                        </div>
+                        <div class="d-flex flex-row align-items-center align-content-center"><span class="rounded info" id="today"></span><span class="dot"></span><span class="info ml-1" id="now"></span></div>
+                    </div>
+                    <div class="p-3 bg-white" >
+                        <button style="color: rgb(8, 8, 8);font-family:Verdana, Geneva, Tahoma, sans-serif;border: rgb(222, 229, 238) 1px solid;width: fit-content;"     onclick="addlist()">CLICK HERE</button>
+                        <p id="demo">
+                        
+                        </p>
+                    </div>
+                    
+                    
+            </div>
+        </div>
+        <!--Container Main end-->
+        <script src="script.js"></script>
+</body>
+</html>
